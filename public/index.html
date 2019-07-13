@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CS1 IDE</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://cdn.glitch.com/f8abb766-9950-44ff-9adb-2f5f53fdaf1b%2FCS1.png?1552299028732">
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./lib/goldenlayout/goldenlayout.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./lib/goldenlayout/base.css" />
+    <link type="text/css" rel="stylesheet" href="./lib/goldenlayout/darktheme.css" />
+
+    <link type="text/css" rel="stylesheet" href="./lib/codemirror/codemirror.css" />
+    <link type="text/css" rel="stylesheet" href="./lib/codemirror/dracula.css" />
+    
+    <script type="text/javascript" src="./lib/jsbeautify/beautify.js"></script>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="/script.mjs" defer></script>
+  </head> 
+  
+  
+  <body>
+    
+    <div id="overlay">
+      
+      <div id="form">
+        <img id="logo" src="https://cdn.glitch.com/25820b43-1b95-4fa5-a6eb-7937baaa174d%2Fcs1_ide.png?v=1560717524476">
+        <input id="project" placeholder="Project Name">
+        <input id="adminkey" type="password" placeholder="ADMIN KEY">
+      </div>
+      
+      
+      
+    </div>
+    
+    <div id="wrapper">
+<!--       <ul id="menuContainer"></ul> -->
+      <div id="layoutContainer"></div>
+    </div>
+
+    
+    
+  </body>
+</html>
