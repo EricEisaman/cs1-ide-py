@@ -25,7 +25,7 @@ ___
 Although the **CS1 IDE** and **CS1 Game Engine** are written in **JavaScript**, a **Python** interface has been added enabling **Pythonistas** to engage in the fun and learning provided.
 
 ## Your Feedback is Important
-Post feedback in GitHub issues at <a href="https://github.com/EricEisaman/cs1-ide-py/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc" rel="noopener noreferer">the official CS1 IDE Py repository</a>.
+Post feedback in GitHub issues at <a href="https://github.com/EricEisaman/cs1-ide-py/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc" rel="noopener noreferer">the official CS1 Python IDE repository</a>.
 
 
 ## Built with :
